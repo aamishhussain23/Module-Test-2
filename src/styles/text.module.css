@@ -19,6 +19,14 @@
 .container{
     display: flex;
     margin-left: 3%;
-    /* justify-content: space-evenly; */
 }
 
+@media screen and (max-width: 500px){
+    .container > p{
+        width: 50%;
+    }
+
+    .date_section{
+        margin-right: 10%;
+    }
+}
